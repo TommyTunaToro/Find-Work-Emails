@@ -1,5 +1,4 @@
 # 📧 Find Work Emails
-![](./dentist.png)
 
 <p align="center">
   <a href="./README.md">English</a> |
