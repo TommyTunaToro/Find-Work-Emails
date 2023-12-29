@@ -1,7 +1,12 @@
 # 📧 Find Work Emails / 查找客户的工作邮箱
 
+<p align="center">
+  <a href="./README.md">English</a> |
+  <a href="./README_Chinese.md">简体中文</a>
+</p>
+
 ## 🔥 概览
-Find-Work-Emails 是一个简单的 Python 脚本，旨在使用 SMTP 协议和 DNS 查找来验证电子邮件地址。它从包含姓名和域的 CSV 文件中读取数据，基于常见模式生成可能的电子邮件格式猜测，并通过执行 SMTP 检查来验证每一个的有效性。
+知道客户的姓名和公司网站？找到他的邮箱使用暴力穷举法哈哈。Find-Work-Emails 是一个简单的 Python 脚本，旨在使用 SMTP 协议和 DNS 查找来验证电子邮件地址。它从包含姓名和域的 CSV 文件中读取数据，基于常见模式生成可能的电子邮件格式猜测，并通过执行 SMTP 检查来验证每一个的有效性。
 
 ## ⚙️ 特性
 - **MX 记录缓存**：通过缓存 MX 记录减少冗余的 DNS 查找。
