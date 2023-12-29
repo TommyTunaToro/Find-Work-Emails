@@ -34,3 +34,8 @@ Find-Work-Emails 是一个简单的 Python 脚本，旨在使用 SMTP 协议和 
 
 ```bash
 python email_verifier.py --file "path/to/your/csvfile.csv" --namecol "全名的列名称例如Name或Full Names" --domaincol "公司域的列名称例如Domain或者domain，domain格式一般会是xxx.com"
+```
+示例
+```bash
+python csv2email.py --file "/Users/mac/Downloads/test.csv" --namecol "Name" --domaincol "domain"
+```
