@@ -1,5 +1,10 @@
 # 📧 Find Work Emails
+![](./dentist.png)
 
+<p align="center">
+  <a href="./README.md">English</a> |
+  <a href="./README_Chinese.md">简体中文</a>
+</p>
 
 ## 🔥 Overview
 Find-Work-Emails is a simple Python script designed to validate email addresses using SMTP protocol and DNS lookups. It reads from a CSV file containing names and domains, generates possible email format guesses based on common patterns, and checks each one for validity by performing an SMTP check.
