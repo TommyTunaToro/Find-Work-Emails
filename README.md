@@ -34,4 +34,9 @@ Before running this script, ensure that you have the following prerequisites ins
 To use the Email Verifier, you'll need a CSV file with columns for full names and company domains. Then, run the script with the following command:
 
 ```bash
-python email_verifier.py --file "path/to/your/csvfile.csv" --namecol "Column Name for Full Names" --domaincol "Column Name for Company Domain"
+python email_verifier.py --file "path/to/your/csvfile.csv" --namecol "Column Name for Full Names" --domaincol "Column Name for Company Domain, format should be xxx.com instead of www.xxx.com"
+```
+Sample command
+```bash
+python csv2email.py --file "/Users/mac/Downloads/test.csv" --namecol "Name" --domaincol "domain"
+```
