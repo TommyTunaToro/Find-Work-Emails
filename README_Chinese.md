@@ -33,4 +33,4 @@ Find-Work-Emails 是一个简单的 Python 脚本，旨在使用 SMTP 协议和 
 要使用 Email Verifier，您将需要一个包含全名和公司域列的 CSV 文件。然后，使用以下命令运行脚本：
 
 ```bash
-python email_verifier.py --file "path/to/your/csvfile.csv" --namecol "全名的列名称" --domaincol "公司域的列名称"
+python email_verifier.py --file "path/to/your/csvfile.csv" --namecol "全名的列名称例如Name或Full Names" --domaincol "公司域的列名称例如Domain或者domain，domain格式一般会是xxx.com"
