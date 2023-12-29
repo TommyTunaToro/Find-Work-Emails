@@ -44,3 +44,15 @@ Sample command
 ```bash
 python csv2email.py --file "/Users/mac/Downloads/test.csv" --namecol "Name" --domaincol "domain"
 ```
+
+## 🧑‍💻 Contributors
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="100px">
+        <img src="https://images.weserv.nl/?url=https://github.com/TommyTunaToro.png&mask=circle"/><br />
+        <sub><a href="https://github.com/tommytunatoro">@tommytunatoro</a></sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
