@@ -2,7 +2,7 @@
 
 
 ## 🔥 Overview
-The Email Verifier is a simple Python script designed to validate email addresses using SMTP protocol and DNS lookups. It reads from a CSV file containing names and domains, generates possible email format guesses based on common patterns, and checks each one for validity by performing an SMTP check.
+Find-Work-Emails is a simple Python script designed to validate email addresses using SMTP protocol and DNS lookups. It reads from a CSV file containing names and domains, generates possible email format guesses based on common patterns, and checks each one for validity by performing an SMTP check.
 
 ## ⚙️ Features
 - **MX Record Caching**: Reduces redundant DNS lookups by caching MX records.
